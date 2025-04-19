@@ -2,14 +2,7 @@
 
 Инструкция по подготовке окружения и загрузке дампа сайта DBA.StackExchange  
 (Ubuntu 22.04 + PostgreSQL 17)
-## 1. Установка дополнительных пакетов
-
-```bash
-sudo apt update
-sudo apt install -y xmlstarlet postgresql-17-pg-bulkload
-```
-
-## 2. Создание схемы
+## 1. Создание схемы
 Задайте имя пользователя и БД
 ```bash
 PG_USER="dba_user"
@@ -27,7 +20,7 @@ SQL
 ```bash
 psql -U $PG_USER -d $PG_DB -f full_schema.sql
 ```
-## 3. Импорт данных в БД
+## 2. Импорт данных в БД
 Сначала подготовим окружение
 ```bash
 sudo apt install -y python3 python3-pip python3-venv
@@ -41,7 +34,7 @@ pip install pandas
 chmod +x import_all.sh
 ./import_all.sh
 ```
-## 4. Запросы и планы запросов, подходы к их оптимизации
+## 3. Запросы и планы запросов, подходы к их оптимизации
 - Q1.sql - запрос Q1
 - Q2.sql - запрос Q2
 - Q1 explain analyze.csv - план запроса Q1
