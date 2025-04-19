@@ -1,0 +1,18 @@
+answer_score,answer_date,answer_author,author_reputation,question_id,question_title,question_date,tags
+-8,"December 24, 2011, 7:58 PM",Jeremy Holovacs,"1,241","9,708",Is there a means to set the owner of all objects in a PostgreSQL database at the same time?,"December 24, 2011, 7:34 PM",|postgresql|functions|ddl|metadata|owner|
+-1,"July 13, 2022, 9:22 AM",Saeed Bahmanabadi,162,"314,360",Need to consider if indexing a complex query Postgres sql,"July 13, 2022, 8:56 AM",|postgresql|index|
+-1,"July 22, 2022, 3:40 PM",Leonardo Petrucci,171,"314,464",Can't connect to pgBouncer running in Docker,"July 15, 2022, 3:10 PM",|postgresql|docker|pgbouncer|
+-1,"September 16, 2022, 11:22 AM",Jasen,"3,563","316,983",Postgres: Dropping Database impacts performance,"September 16, 2022, 10:00 AM",|postgresql|postgresql-performance|maintenance|
+-1,"May 10, 2023, 1:07 AM",Thanh Dong,9,"326,863",NpgsqlParameter Array of smallints is receiving 0 instead of null value from postgres,"May 8, 2023, 11:17 AM",|postgresql|postgresql-14|npgsql|c++|
+-1,"November 14, 2015, 2:39 PM",Vinnix,176,"120,890",Reset postgres password v9.1,"November 12, 2015, 5:22 PM",|postgresql|authentication|pg-hba.conf|
+-1,"April 19, 2017, 1:07 PM",paparazzo,"5,043","171,368",Very slow WHERE IN query on very large table - postgresql 9.6,"April 19, 2017, 8:32 AM",|postgresql|
+-1,"November 27, 2017, 6:36 AM",Vérace,"29,825","191,767",How to see the list of the Postgres databases via the linux terminal?,"November 27, 2017, 5:52 AM",|postgresql|
+-1,"December 4, 2017, 8:37 PM",Evan Carroll,"63,051","192,372",When running `make installcheck` I get can not connect to database,"December 4, 2017, 8:37 PM",|ubuntu|postgresql-extensions|
+-1,"August 12, 2018, 7:22 AM",TheDataGuy,"1,930","214,671",pg_ctl still pointing to 9.5.4 after upgrade to postgres 10,"August 11, 2018, 7:15 PM",|postgresql|ubuntu|postgresql-9.5|
+-1,"October 18, 2019, 1:58 PM",Erwin Brandstetter,"175,982","251,457",Can we copy data from 1 text file to 2 postgresql tables?,"October 18, 2019, 12:43 PM",|postgresql|copy|
+-1,"October 30, 2019, 7:54 PM",jjanes,"39,726","252,222",How to profile the PostgreSQL query planner diagnose what is causing it to take up large amounts of memory and time,"October 30, 2019, 3:26 PM",|postgresql|execution-plan|explain|debugging|
+-1,"June 14, 2020, 5:49 PM",Nithila Shanmugananthan,99,"269,111",Will auto vacuum analyzer delay visibility of bulk insertion or updation,"June 14, 2020, 2:22 AM",|postgresql|
+-1,"December 11, 2020, 2:31 PM",nbk,"8,191","281,353","If using a function in a case, does it run on each condition and result or is cached?","December 11, 2020, 2:21 PM",|postgresql|
+-1,"February 5, 2021, 7:58 AM",mich,101,"284,722",Conditionally insert a value in an array when creating a new column,"February 4, 2021, 6:55 PM",|postgresql|array|postgresql-12|
+-1,"December 15, 2021, 10:28 PM",Ron Piggott,167,"304,009",What PostgreSQL query will return unused SEQUENCE #'s?,"December 15, 2021, 10:28 PM",|postgresql|auto-increment|sequence|
+-1,"May 28, 2021, 2:18 PM",Megidd,99,"292,396",Your database files were created by PostgreSQL version 13,"May 28, 2021, 5:53 AM",|postgresql|installation|remote|
