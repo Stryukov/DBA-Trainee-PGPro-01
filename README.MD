@@ -1,4 +1,4 @@
-# StackExchange Data Dump: DBA
+# StackExchange: DBA trainee test task
 
 Инструкция по подготовке окружения и загрузке дампа сайта DBA.StackExchange  
 (Ubuntu 22.04 + PostgreSQL 17)
