@@ -18,7 +18,7 @@ SQL
 ```
 Создайте схему
 ```bash
-psql -U $PG_USER -d $PG_DB -f full_schema.sql
+psql -h localhost -U $PG_USER -d $PG_DB -f schema.sql
 ```
 ## 2. Импорт данных в БД
 Сначала подготовим окружение

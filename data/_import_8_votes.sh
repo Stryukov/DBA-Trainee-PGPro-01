@@ -11,7 +11,7 @@ python3 $DATA_DIR/_convert_with_pandas.py --file $XML_FILE --out $CSV_FILE --tab
 sed -i 's/"___NULL___"/\\N/g' "$CSV_FILE"
 
 echo "📥 Импорт в PostgreSQL через COPY..."
-psql -U "$PG_USER" -d "$PG_DB" <<EOF
+psql -h localhost -U "$PG_USER" -d "$PG_DB" <<EOF
 \\COPY votes FROM '$CSV_FILE' WITH (FORMAT csv, HEADER, QUOTE '"', NULL '\\N');
 EOF
 
