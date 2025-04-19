@@ -42,12 +42,12 @@ chmod +x import_all.sh
 ./import_all.sh
 ```
 ## 4. Запросы и планы запросов, подходы к их оптимизации
-Q1.sql - запрос Q1
-Q2.sql - запрос Q2
-Q1 explain analyze.csv - план запроса Q1
-Q1 explain analyze.csv - план запроса Q2
-Q1 result.png - результат запроса Q1 в metabase
-Q2 result.csv - результат запроса Q2
+- Q1.sql - запрос Q1
+- Q2.sql - запрос Q2
+- Q1 explain analyze.csv - план запроса Q1
+- Q1 explain analyze.csv - план запроса Q2
+- Q1 result.png - результат запроса Q1 в metabase
+- Q2 result.csv - результат запроса Q2
 
 подходы к оптимизации запросов: 
 - материализовать CTE
